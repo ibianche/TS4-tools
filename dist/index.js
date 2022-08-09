@@ -1,9 +1,8 @@
-// function printMessage(msg: string): void {
-//     console.log(`Komunikat: ${msg}`);
-// }
-//
-// printMessage("Witaj, TypeScript");
-// printMessage("Witaj mamy dzisiaj słoneczny dzień");
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const calc_1 = require("./calc");
 let printMessage = (msg) => console.log(`Komunikat: ${msg}`);
 let message = ("Witaj, TypeScript");
 printMessage(message);
+let total = calc_1.sum(100, 200, 300);
+console.log(`Wartość całkowita: ${total}`);
